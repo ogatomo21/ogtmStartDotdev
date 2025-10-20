@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+:root {
+    --bulma-primary-h: 223deg;
+    --bulma-primary-s: 37%;
+    --bulma-primary-l: 59%;
+
+    --bulma-primary-invert-h: 0deg;
+    --bulma-primary-invert-s: 0%;
+    --bulma-primary-invert-l: 100%;
+
+    --bulma-warning-invert-h: 0deg;
+    --bulma-warning-invert-s: 0%;
+    --bulma-warning-invert-l: 20%;
+
+    --bulma-danger-invert-h: 0deg;
+    --bulma-danger-invert-s: 0%;
+    --bulma-danger-invert-l: 100%;
+
+    --bulma-link-h: 223deg;
+    --bulma-link-s: 26%;
+    --bulma-link-l: 35%;
+    --bulma-info-h: 224deg;
+    --bulma-info-s: 35%;
+    --bulma-info-l: 92%;
+    --bulma-success-h: 162deg;
+    --bulma-success-s: 63%;
+    --bulma-success-l: 66%;
+    --bulma-warning-h: 52deg;
+    --bulma-warning-l: 51%;
+    --bulma-danger-h: 3deg;
+    --bulma-danger-l: 75%;
+    --bulma-family-primary: BIZ UDPGothic, sans-serif;
+    --bulma-family-secondary: BIZ UDPGothic, sans-serif;
+    --bulma-body-family: BIZ UDPGothic, sans-serif;
+}
+
+.navbar{
+    --bulma-navbar-burger-color: hsl(0, 0%, 100%);
+}
+
+.poppins{
+    font-family: "Poppins", "BIZ UDPGothic", sans-serif;
+}
+
+html,body,.app{
+    width: 100%;
+}
+
+.search{
+    width: 100%;
+    max-width: 800px;
+}

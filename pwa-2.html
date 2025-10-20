@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head prefix="og: http://ogp.me/ns#">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA-2をインストール | ogtmStart.dev</title>
+    <meta name="description" content="ogtmStart.devは、PWAでさまざまなウェブサービスへのショートカットを提供するOSSのアプリケーションです。">
+    <link rel="canonical" href="https://start.ogtm.dev/pwa-2.html">
+
+    <link rel="apple-touch-icon" type="image/png" href="/assets/icon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/assets/icon/icon.png">
+    <link rel="manifest" href="/manifest2.json">
+    <meta name="theme-color" content="#7086BD">
+
+    <meta property="og:title" content="ogtmStart.dev">
+    <meta property="og:description" content="ogtmStart.devは、PWAでさまざまなウェブサービスへのショートカットを提供するOSSのアプリケーションです。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://start.ogtm.dev">
+    <meta property="og:image" content="https://start.ogtm.dev/assets/ogp.png">
+    <meta property="og:site_name" content="ogtmStart.dev">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ogtmStart.dev">
+    <meta name="twitter:description" content="ogtmStart.devは、PWAでさまざまなウェブサービスへのショートカットを提供するOSSのアプリケーションです。">
+    <meta name="twitter:image" content="https://start.ogtm.dev/assets/ogp.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/1.0.4/css/bulma.min.css"
+        integrity="sha512-yh2RE0wZCVZeysGiqTwDTO/dKelCbS9bP2L94UvOFtl/FKXcNAje3Y2oBg/ZMZ3LS1sicYk4dYVGtDex75fvvA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/navbar.js"></script>
+</head>
+
+<body>
+    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item poppins" href="https://start.ogtm.dev">
+                ogtmStart.dev
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample" aria-controls="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item poppins" href="./index.html">
+                    Home
+                </a>
+
+                <a class="navbar-item" href="install.html">
+                    PWAとしてインストール
+                </a>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-link poppins" href="https://github.com/ogatomo21/ogtmStartDotdev">
+                            <span class="icon">
+                                <i class="fab fa-github"></i>
+                            </span>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="app m-6">
+        <h1 class="title">PWA-2としてインストール</h1>
+        <p>下記の案内に従い、PWA-2としてインストールしてください。</p>
+        <article class="mt-6 message is-info">
+            <div class="message-header">
+                <h2 class="poppins">How To Install PWA</h2>
+            </div>
+            <div class="message-body">
+                <div class="content poppins">
+                    <h4 class="subtitle is-6">デスクトップ（Chrome / Edge）</h4>
+                    <ol>
+                        <li>アドレスバーの右側に「インストール」ボタン（パズルピースや＋アイコン）が表示される場合、それをクリックして「インストール」を選択。</li>
+                        <li>表示されない場合は、ブラウザ右上のメニュー（⋮ や …）を開き、「Install」または「アプリをインストール」を選択。</li>
+                    </ol>
+
+                    <h4 class="subtitle is-6">Android（Chrome）</h4>
+                    <ol>
+                        <li>画面右上のメニュー（⋮）を開く。</li>
+                        <li>「ホーム画面に追加」または「インストール」を選択して指示に従う。</li>
+                    </ol>
+
+                    <h4 class="subtitle is-6">iPhone / iPad（Safari）</h4>
+                    <ol>
+                        <li>画面下の共有ボタン（四角と上矢印）をタップ。</li>
+                        <li>表示されるメニューから「ホーム画面に追加」を選び、名前を確認して追加する。</li>
+                    </ol>
+                </div>
+            </div>
+        </article>
+        <h2 class="title">複数インストールしたい場合</h2>
+        <p>複数インストールしたい場合は、自分でこのリポジトリをクローンして動かすか、下記のページから名前を変えたバージョンをインストールできます。(例: ogtmStart.dev-1)</p>
+        <div class="mt-5 content">
+            <ul>
+                <li><a href="./pwa-1.html">ogtmStart.dev-1</a></li>
+                <li><a href="./pwa-2.html">ogtmStart.dev-2</a></li>
+                <li><a href="./pwa-3.html">ogtmStart.dev-3</a></li>
+                <li><a href="./pwa-4.html">ogtmStart.dev-4</a></li>
+                <li><a href="./pwa-5.html">ogtmStart.dev-5</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>ogtmStart.dev</strong> by <a href="https://about.ogatomo.net">@ogatomo21</a><br>
+                &copy; 2025 Tomoya Ogawa
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
