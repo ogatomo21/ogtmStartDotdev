@@ -45,10 +45,6 @@
     font-family: "Poppins", "BIZ UDPGothic", sans-serif;
 }
 
-html,body,.app{
-    width: 100%;
-}
-
 .search{
     width: 100%;
     max-width: 800px;
